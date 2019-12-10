@@ -304,7 +304,7 @@ ALTER TABLE people ADD COLUMN employer_id int;
 INSERT INTO companies ( name ) VALUES ( 'General Assembly');
 ```
 
--Now update employer_id in people table
+- Now update employer_id in people table
 ```sql
 UPDATE people SET employer_id = 1 WHERE id = 1;
 ```
