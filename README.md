@@ -474,7 +474,3 @@ See advanced_queries.sql in the [sql-library-lab](./sql-library-lab) exercise.
 * What are the different types of relations that exist in a relational database?
 * How do we indicate a one-to-many relationship in a database?
 
-## Screencasts:
-
-- WDI7 (Matt Scilipoti): [Part 1](https://youtu.be/cuPXKDMEhKw), [Part 2](https://youtu.be/wQtBDerdyKw)
-- ERDs WDI7 (Matt Scilipoti): https://youtu.be/IDnOMi9jHgo
