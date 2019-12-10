@@ -1,12 +1,3 @@
-![](/ga_cog.png)
-
----
-Title: Computers & Televisions <br>
-Type: Lab <br>
-Creator: Thom Page <br>
-Adapted By: Jerrica Bobadilla
-
----
 
 # :computer: Computers & Televisions :tv:
 
