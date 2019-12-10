@@ -277,13 +277,10 @@ SELECT * FROM people ORDER BY age DESC; -- select all rows from people table, or
 ## Aggregation
 
 ```sql
+SELECT * FROM people GROUP BY first_name;
 SELECT SUM(age), first_name FROM people GROUP BY first_name; -- divide all rows into groups by name.  Show the SUM of the ages of each group.  Also show what name each group has
-SELECT AVG(age), first_name FROM people GROUP BY first_name; -- divide all rows into groups by name.  Show the AVG of the ages of each group.  Also show what name each group has
-SELECT MIN(age), first_name FROM people GROUP BY first_name; -- divide all rows into groups by name.  Show the MAX of the ages of each group.  Also show what name each group has
-SELECT MAX(age), first_name FROM people GROUP BY first_name; -- divide all rows into groups by name.  Show the MIN of the ages of each group.  Also show what name each group has
-SELECT COUNT(age), first_name FROM people GROUP BY first_name; -- divide all rows into groups by name.  Show how many rows have a value in the age column.  Also show what name each group has
 SELECT COUNT(*), first_name FROM people GROUP BY first_name; -- divide all rows into groups by name.  Show the number of rows in each group.  Also show what name each group has
-SELECT array_agg(first_name), age FROM people GROUP BY age; -- divide all rows into groups by age.  List the names in each group and show what age each group has
+
 ```
 
 <br>
