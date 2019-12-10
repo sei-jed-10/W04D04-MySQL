@@ -257,8 +257,8 @@ ALTER TABLE users RENAME TO people; -- rename a table
 ## Limit
 
 ```sql
-SELECT * FROM people LIMIT 1; -- select all rows from people table, but show only the first column
-SELECT * FROM people LIMIT 1 OFFSET 1; -- select all rows from people table, but show only one column.  Skip the first row
+SELECT * FROM people LIMIT 1; -- select all rows from people table, but show only the first row
+SELECT * FROM people LIMIT 1 OFFSET 1; -- select all rows from people table, but show only one row.  Skip the first row
 ```
 
 <br>
