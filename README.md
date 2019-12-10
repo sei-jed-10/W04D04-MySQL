@@ -455,11 +455,7 @@ SELECT * FROM books JOIN authors ON books.author_id = authors.id;
 SELECT * FROM books AS b JOIN authors AS a ON b.author_id = a.id;
 ```
 
-<br>
 
-If you're really curious, check out this article:
-
-[A visual explanation of SQL Joins](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
 
 <br>
 
@@ -481,6 +477,7 @@ See advanced_queries.sql in the [sql-library-lab](./sql-library-lab) exercise.
 * https://pgexercises.com/
 * https://www.sqlteaching.com/#!select
 * https://sqlbolt.com/lesson/select_queries_introduction
+* [A visual explanation of SQL Joins](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
 
 ## Sample Quiz Questions
 
