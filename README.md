@@ -138,6 +138,8 @@ Postgres, and SQLite](https://www.digitalocean.com/community/tutorials/sqlite-vs
 
 
 ## MySQL Installation
+
+[Step by Step Guide for Installation of MYSQL and Workbench] (https://github.com/sei-jed-10/MySQL-Downlaod-Steps)
 [MySQL For MAC & Windows](https://dev.mysql.com/downloads/installer/)
 <br>
 [Workbench for MAC & Windows](https://dev.mysql.com/downloads/workbench/)
