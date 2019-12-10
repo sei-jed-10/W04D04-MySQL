@@ -80,7 +80,11 @@ What does ACID stand for:
 * The durability property ensures that once a transaction has been committed, it will remain so, even in the event of power loss, crashes, or errors. Once a change has been made, nothing but another transaction will change it.
 
 
-## What's a Relational Database? (10 minutes / 0:50)
+## How to manage load on Data Server
+1. Load Balancers
+2. Targeted Customers
+
+## What's a Relational Database?
 
 <!-- AM: Whiteboard a table(s) during this section. -->
 
