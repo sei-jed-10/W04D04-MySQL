@@ -311,12 +311,18 @@ UPDATE people SET employer_id = 1 WHERE id = 1;
 <br> 
 
 ```sql
-SELECT * FROM people JOIN companies ON people.employer_id = companies.id -- find all people who have an employer_id column set and show which company they work for
-SELECT * FROM people LEFT JOIN companies ON people.employer_id = companies.id -- find all people have an employer_id column set and show which company they work for.  In addition to this set, add on all people who do not have an employer_id column set
-SELECT * FROM people RIGHT JOIN companies ON people.employer_id = companies.id -- find all people have an employer_id column set and show which company they work for.  In addition to this set, add on all companies who do not have any people with employer_id columns set to the company's id column
-SELECT * FROM people FULL OUTER JOIN companies ON people.employer_id = companies.id; -- find all people have an employer_id column set and show which company they work for.  In addition to this set, add on all companies who do not have any people with employer_id columns set to the company's id column and all people who do not have an employer_id column set
+SELECT * FROM people JOIN companies ON people.employer_id = companies.id <br>
+-- find all people who have an employer_id column set and show which company they work for
+<br><br>
+SELECT * FROM people LEFT JOIN companies ON people.employer_id = companies.id <br> 
+-- find all people have an employer_id column set and show which company they work for.  In addition to this set, add on all people who do not have an employer_id column set
+<br><br>
+
+SELECT * FROM people RIGHT JOIN companies ON people.employer_id = companies.id <br>
+-- find all people have an employer_id column set and show which company they work for.  In addition to this set, add on all companies who do not have any people with employer_id columns set to the company's id column
 ```
 
+<br>
 <br>
 
 # Part 3 - SQL JOINs
