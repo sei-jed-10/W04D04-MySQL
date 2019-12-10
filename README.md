@@ -290,8 +290,19 @@ SELECT COUNT(*), first_name FROM people GROUP BY first_name; -- divide all rows 
 Before running the below commands...
 
 - Create a `companies` table with `id` and `name`
-- Add `employer_id` to the `people` table
+```sql
+create table companies(id serial, name varchar(20));
+```
 
+- Add `employer_id` to the `people` table
+```sql
+ALTER TABLE people ADD COLUMN employer_id int; 
+```
+
+- Now insert some data into the companies table
+```sql
+INSERT INTO companies ( name ) VALUES ( 'General Assembly');
+```
 <br> 
 
 ```sql
