@@ -1,8 +1,6 @@
 TRUNCATE TABLE BOOKS;
 TRUNCATE TABLE AUTHORS;
 
-ALTER SEQUENCE books_id_seq RESTART WITH 1;
-ALTER SEQUENCE authors_id_seq RESTART WITH 1;
 
 INSERT INTO authors(name, nationality, birth_year) VALUES ('Cao Xueqin', 'China', 1715);
 INSERT INTO authors(name, nationality, birth_year) VALUES ('J.K. Rowling', 'United Kingdom', 1965);
