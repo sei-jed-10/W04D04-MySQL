@@ -457,10 +457,7 @@ SELECT * FROM books AS b JOIN authors AS a ON b.author_id = a.id;
 
 <br>
 
-## You Do: Less Common Joins
-
-There are actually a number of ways to join multiple tables with `JOIN`, if
-you're really curious, check out this article:
+If you're really curious, check out this article:
 
 [A visual explanation of SQL Joins](http://blog.codinghorror.com/a-visual-explanation-of-sql-joins/)
 
