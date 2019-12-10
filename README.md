@@ -227,12 +227,6 @@ DELETE FROM users WHERE id = 1; -- delete all rows from the users table that hav
 
 <br>
 
-## LABTIME
-
-- [sql-library-lab](./sql-library-lab)
-- [sql-computers-lab](./sql-computers-lab)
-
-<br>
 
 ## Part 2 - Lesson Objectives
 
