@@ -250,7 +250,6 @@ ALTER TABLE users DROP COLUMN test; -- drop the test column
 ALTER TABLE users RENAME COLUMN name To first_name -- rename a column
 ALTER TABLE users ADD COLUMN id serial PRIMARY KEY; -- add an id column that increments with each new row
 ALTER TABLE users RENAME TO people; -- rename a table
-ALTER TABLE people ALTER COLUMN first_name TYPE text; -- chang the data type of a column
 ```
 
 <br>
