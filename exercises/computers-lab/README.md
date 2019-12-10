@@ -1,7 +1,6 @@
 
 # :computer: Computers & Televisions :tv:
 
-> For today's morning lab, you'll be getting practice with the SQL commands you just learned.
 
 ### Activity
 
