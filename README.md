@@ -316,13 +316,13 @@ SELECT * FROM people JOIN companies ON people.employer_id = companies.id
 
 SELECT * FROM people LEFT JOIN companies ON people.employer_id = companies.id 
 -- find all people have an employer_id column set and show which company they work for.  
-In addition to this set, add on all people who do not have an employer_id column set
+-- In addition to this set, add on all people who do not have an employer_id column set
 
 
 SELECT * FROM people RIGHT JOIN companies ON people.employer_id = companies.id 
 -- find all people have an employer_id column set and show which company they work for.  
-In addition to this set, add on all companies who do not have any people with 
-employer_id columns set to the company's id column
+-- In addition to this set, add on all companies who do not have any people with 
+-- employer_id columns set to the company's id column
 ```
 
 <br>
